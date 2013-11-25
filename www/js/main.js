@@ -172,7 +172,7 @@ function SearchSuggestBaidu() {
                 $.ajax({
                     type : "get",
                     async: "true",
-                    url: "http://unionsug.baidu.com/su?p=3&wd=" + encodeURIComponent(inputValue),
+                    url: "http://suggestion.baidu.com/su?p=3&wd=" + encodeURIComponent(inputValue),
                     dataType : "jsonp",
                     jsonp: "cb",
                     jsonpCallback: "BaiduSuggestion",
