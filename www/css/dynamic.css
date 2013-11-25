@@ -1,0 +1,113 @@
+@CHARSET "UTF-8";
+/*
+ * 动态效果CSS部分
+ * 
+ * @author 风格独特
+ * @version 1.0, 2012-08-31
+ */
+
+/* 搜素部分样式  --start-- */
+#search {
+    background-color:#FFF;
+    text-align: center;
+    padding:8px 0 8px 105px;
+    border:1px solid #E6E6E6;
+    border-bottom:none!important;
+}
+#search_btn li {
+    float: left;
+    font-size: 14px;
+    height: 28px;
+    line-height:25px;
+    width: 49px;
+    list-style-type: none;
+    cursor: pointer;
+    margin:0px 6px;
+}
+#search_contents {
+    text-align: left;
+}
+.btn1 {
+}
+.btn2 {
+    background-image: url(../image/tab.png);
+    background-repeat: no-repeat;
+    color:#FFF;
+    font-weight:bold;
+}
+.input_search {
+    line-height: 22px;
+    height: 22px;
+    font-size: 14px;
+    padding: 4px 5px 4px 6px;
+    border: 1px solid #CCC;
+    width: 400px;
+    vertical-align: bottom;
+}
+button {
+    height: 33px;
+    width: 100px;
+    margin-left: 5px;
+    vertical-align: top;
+    background: url("../image/search_bg.png");
+    background-repeat:no-repeat;
+    border: none;
+}
+/* 搜素部分样式  --end-- */
+
+/* 搜素提示样式 --start-- */
+#listbox {
+    position: absolute;
+    display: none;
+    border: solid 1px #B4B4B4;
+    z-index: 100;
+    background-color: #FFF;
+    font-size: 14px;
+}
+#listbox div {
+    width: 200px;
+    line-height: 25px;
+    width: 400px;
+    padding: 0  5px;
+    cursor: default;
+}
+.listlinkcheck {
+    background-color: #CCC !important;
+}
+/* 搜素提示样式 --end-- */
+
+/* 图片切换样式 --start-- */
+#img_change {
+    position:relative;
+    height:183px;
+    overflow:hidden;
+    margin:0 auto;
+    width:248px;
+/*    width:360px;
+    height:70px;*/
+}
+.img_num {
+    top:164px;
+    left:0px;
+    position:absolute;
+    z-index:1000;
+    width:246px;
+}
+.img_num p {
+    float:left;
+    width:18px;
+    height:15px;
+    padding-top:2px;
+    line-height:1.2em;
+    margin-left:2px;
+    text-align:center;
+    cursor:pointer;
+    background:#FFF;
+    font-weight:bold;
+    color:#709F11;
+}
+.img_numcheck {
+    background:#709F11!important;
+    color:#FFF!important;
+}
+/* 图片切换样式 --end-- */

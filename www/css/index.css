@@ -1,0 +1,278 @@
+@CHARSET "UTF-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font-family:Arial;
+	font-size:12px;
+	color:#333;
+	/*background-color:#ececec;*/
+	background-color: #f8f8f8;
+}
+img {
+    border:none;
+}
+#top {
+	height:28px;
+    line-height:1.2em;
+	background: url(../image/userbar_bg.png);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D2D2D2;
+	/*background-repeat: repeat-x;*/
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:1999;
+	width:100%;
+    overflow:hidden;
+}
+#userbar {
+	width:990px;
+	margin:0px auto;
+	padding-top:7px;
+}
+#user_l {
+	float: left;
+    text-indent: 1em;
+}
+#user_r {
+	float:right;
+}
+#user_r li {
+	list-style:none;
+	float:right;
+	padding:0 6px
+}
+#box {
+	width: 990px;
+	margin:0 auto;
+}
+#head {
+	height: 80px;
+    margin-top:28px;
+}
+#logo {
+	float: left;
+	width: 220px;
+	height: 70px;
+	background-image: url(../image/logo.png);
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+}
+#weather {
+    float:left;
+    width:300px;
+    padding-top:14px;
+    margin-left:10px;
+}
+#ad {
+    float:left;
+    width:460px;
+    overflow:hidden;
+    padding:5px 0 0 0;
+}
+#middle {
+}
+#left {
+	float: left;
+	width: 732px;
+}
+.jwc_week {
+    color:#F00;
+    font-weight:bold;
+}
+.title1 {
+	font-weight: bold;
+	color:#709F11;
+	padding:10px 0 8px 5px;
+	border-bottom:1px solid #E6E6E6;
+	margin:0 auto;
+	width:96%;
+}
+.title2 {
+    font-weight: bold;
+    color: #0134c5;
+    width: 60px;
+    float: left;
+    text-align: center;
+    padding-top:6px;
+}
+.title3 {
+    color:#709F11;
+    border-bottom:1px solid #E6E6E6;
+    margin:0 auto;
+    width:86%;
+    height:20px;
+    padding-top:15px;
+}
+.title3_left {
+    float: left;
+    font-weight: bold;
+    text-indent:0.5em;
+}
+.title3_right {
+    float: right;
+}
+#hot , #bit {
+    border:1px solid #E6E6E6;
+    margin-bottom: 10px;
+    background-color: #FFF;
+}
+#hot {
+    padding:5px 5px;
+	font-size:14px;
+}
+#hot li {
+	list-style-type: none;
+	float:left;
+	height:30px;
+	line-height:30px;
+	width:100px;
+	text-align:left;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+#hot li a:hover {
+	text-decoration:underline;
+	color:#FF0000;
+}
+#customize {
+    padding-left:19px;
+}
+#customize li {
+    text-indent: 1.6em;
+    background-image: url("../image/favicon/default.png");
+    background-repeat: no-repeat;
+    background-position:0 center;
+}
+#common {
+    padding-left:19px;
+}
+#website {
+	padding: 8px 5px 10px 5px;
+}
+#website ul {
+	overflow:hidden;
+	width:660px;
+	float:left;
+}
+#website li {
+	list-style-type: none;
+	float: left;
+	text-align: left;
+	margin-right: 20px;
+	white-space: nowrap;
+	padding-top:6px;
+	height:21px;
+}
+.bg{
+	background-color: #F5F5F5 !important;
+	display:inline-block;
+}
+#website a:hover {
+	color: #FF0000;
+	text-decoration: underline;
+}
+#right {
+	float: right;
+	overflow:hidden;
+    width: 250px;
+}
+#news_update {
+    border:1px solid #E6E6E6;
+    background-color:#FFF;
+    margin-top:10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+.news {
+    padding:0 14px;
+}
+.news li {
+	text-align: left;
+	overflow: hidden;
+	line-height: 23px;
+	height: 23px;
+	width:210px;
+	padding-left:11px;
+	background-image: url(../image/list_bg.gif);
+	background-repeat: no-repeat;
+	background-position: 0 10px;
+	list-style:none;
+	text-overflow:ellipsis;
+}
+.news a {
+    white-space:nowrap;
+}
+.udp_time {
+    padding:10px 0 0 0px;
+    text-align:center;
+    color:#888;
+}
+#user_info {
+    border:1px solid #E6E6E6;
+    background-color:#FFF;
+    margin-top: 10px;
+    line-height: 22px;
+    padding: 5px 18px;
+}
+#end {
+	border-top:1px solid #DDD;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	text-align:center;
+	line-height: 24px;
+	margin-top: 10px;
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+    color:#f00;
+    text-decoration: underline;
+}
+.blue a {
+	color: #00F;
+}
+.blue a:hover{
+	color:#00F !important;
+}
+.red a {
+	color: #F00;
+}
+.red a:hover{
+	color:#F00 !important;
+}
+.green a {
+    color:#709F11;
+}
+.green a:hover {
+    color:#709F11;
+}
+.copyright {
+    
+}
+.copyright a:hover{
+    color:#F00;
+}
+.left {
+    float:left;
+}
+.right {
+    float:right;
+}
+.clear {
+    clear:both;
+}
+.f_l {
+    float:left;
+}
+.f_r {
+    float:right;
+}
