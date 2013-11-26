@@ -155,7 +155,7 @@ $config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
 |
 */
 $config['allow_get_array']		= TRUE;
-$config['enable_query_strings'] = TRUE;
+$config['enable_query_strings'] = FALSE;
 $config['controller_trigger']	= 'c';
 $config['function_trigger']		= 'm';
 $config['directory_trigger']	= 'd'; // experimental not currently in use
@@ -224,7 +224,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = 'asfdasdfasdf1123';
+$config['encryption_key'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -244,14 +244,14 @@ $config['encryption_key'] = 'asfdasdfasdf1123';
 | 'sess_time_to_update'		= how many seconds between CI refreshing Session Information
 |
 */
-$config['sess_cookie_name']		= 'star_session';
+$config['sess_cookie_name']		= 'ci_session';
 $config['sess_expiration']		= 7200;
 $config['sess_expire_on_close']	= FALSE;
 $config['sess_encrypt_cookie']	= FALSE;
 $config['sess_use_database']	= FALSE;
 $config['sess_table_name']		= 'ci_sessions';
 $config['sess_match_ip']		= FALSE;
-$config['sess_match_useragent']	= FALSE;
+$config['sess_match_useragent']	= TRUE;
 $config['sess_time_to_update']	= 300;
 
 /*
@@ -355,7 +355,7 @@ $config['rewrite_short_tags'] = FALSE;
 | Comma-delimited, e.g. '10.0.1.200,10.0.1.201'
 |
 */
-$config['proxy_ips'] = '202.204.81.57,10.2.70.2';
+$config['proxy_ips'] = '';
 
 
 /* End of file config.php */
