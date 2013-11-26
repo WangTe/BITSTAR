@@ -8,7 +8,7 @@
 <!--[if IE 6]>
 <link rel=stylesheet type="text/css" href="<?php echo base_url('static/common/css/ie6.css'); ?>" />
 <![endif]-->
-<script type="text/javascript" src="js/jquery-1.8.0.js" charset="UTF-8"></script>
+<script type="text/javascript" src="js/jquery-1.8.0.min.js" charset="UTF-8"></script>
 <script type="text/javascript" src="js/main.js" charset="UTF-8"></script>
 <script type="text/javascript" src="js/function.js" charset="UTF-8"></script>
 </head>
