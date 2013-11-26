@@ -24,8 +24,10 @@ class Debug extends CI_Controller
 		$this->load->model('config_m');
 		$a = $this->config_m->item('bb');
 		$this->output->set_output($a[1]);*/
-		$this->load->model('news_update_m');
-		$this->output->set_output($this->news_update_m->update());
+// 		$this->load->model('news_update_m');
+// 		$this->output->set_output($this->news_update_m->update());
+
+		print_r($_SERVER);
 	}
 	
 	public function test() 
